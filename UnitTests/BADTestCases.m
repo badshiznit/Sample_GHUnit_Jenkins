@@ -24,4 +24,12 @@
 }
 
 
+-(void) testInteger
+{
+    NSString *s = @"Toto",*z = @"Titi";
+    
+    GHAssertEqualObjects(s, z, @" Toto == Titi ?");
+}
+
+
 @end
